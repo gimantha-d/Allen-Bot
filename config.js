@@ -83,8 +83,8 @@ module.exports = {
   errorChat : process.env.ERROR_CHAT || "Error ❗",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
-  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "5VfcfAukd2CGLmfTKEbhHKZP",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-svcacct-d3Ypl36iQFVVYOBzn6mdT3BlbkFJcnmt7toJMaHC2cVzXKHu",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
